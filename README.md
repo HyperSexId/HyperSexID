@@ -1,16 +1,15 @@
-### Hi there 👋
+# Anonymous-chat-telegram
+Bot uses several libraries:
+* [TeleBot](https://github.com/eternnoir/pyTelegramBotAPI) - API Telegram for python
+* [SQLAlchemy](http://www.sqlalchemy.org) - Interaction with the database
 
-<!--
-**HyperSexId/HyperSexID** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can install libraries with pip:
+```sh
+$ pip install pyTelegramBotAPI
+$ pip install SQLAlchemy
+```
 
-Here are some ideas to get you started:
+_BinaryTree.py_ contains a binary search tree for fast searching users in list. You can use this class in your project, 
+because tree node contains the key and the appropriate object.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+The basis of the bot is _ChatBot.py_. To start the bot you need to get token for your bot. To create bot you can with **@BotFather** in telegram.
